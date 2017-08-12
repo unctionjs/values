@@ -1,12 +1,15 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./source.js"
+import values from "./source.js"
 
 test(({same, end}) => {
   same(
-    tempLate(true),
-    false
+    values({
+      aaa: "bbb",
+      bbb: "aaa",
+    }),
+    ["bbb", "aaa"]
   )
 
   end()
