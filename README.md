@@ -9,7 +9,7 @@
 Takes a record and returns it's values.
 
 ``` javascript
-values({aaa: "bbb", bbb: "aaa"}) // ["bbb", "aaa"]
+values({aaa: "111", bbb: "222"}) // ["111", "222"]
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/values.svg?maxAge=2592000&style=flat-square

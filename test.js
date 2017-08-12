@@ -6,10 +6,10 @@ import values from "./source.js"
 test(({same, end}) => {
   same(
     values({
-      aaa: "bbb",
-      bbb: "aaa",
+      aaa: "111",
+      bbb: "222",
     }),
-    ["bbb", "aaa"]
+    ["111", "222"]
   )
 
   end()
