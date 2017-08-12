@@ -1,7 +1,7 @@
 {
   "name": "@unction/values",
   "version": "1.0.0",
-  "description": "Takes a record and returns it's values",
+  "description": "Takes an iterable and returns it's values",
   "keywords": [
     "unction",
     "functional"

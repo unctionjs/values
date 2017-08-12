@@ -14,3 +14,18 @@ test(({same, end}) => {
 
   end()
 })
+
+test(({same, end}) => {
+  same(
+    values([
+      "aaa",
+      "bbb",
+    ]),
+    [
+      "aaa",
+      "bbb",
+    ]
+  )
+
+  end()
+})

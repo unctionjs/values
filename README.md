@@ -4,12 +4,13 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> RecordType -> Array<ValueType>
+> IterableType -> Array<ValueType>
 
-Takes a record and returns it's values.
+Takes an iterable and returns it's values.
 
 ``` javascript
 values({aaa: "111", bbb: "222"}) // ["111", "222"]
+values(["aaa", "bbb"]) // ["aaa", "bbb"]
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/values.svg?maxAge=2592000&style=flat-square
