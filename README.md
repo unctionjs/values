@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> IterableType -> Array<ValueType>
+> FunctorType -> Array<ValueType>
 
 Takes an iterable and returns it's values.
 
