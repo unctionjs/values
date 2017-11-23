@@ -49,7 +49,7 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/append": "2.12.0",
+    "@unction/append": "2.13.0",
     "@unction/flip": "2.8.0",
     "@unction/reducevalues": "2.39.0"
   },
