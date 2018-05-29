@@ -50,7 +50,7 @@
     "jest": "23.0.0"
   },
   "dependencies": {
-    "@unction/append": "4.0.0",
+    "@unction/append": "5.0.0",
     "@unction/flip": "3.0.0",
     "@unction/reducevalues": "7.0.0"
   },
