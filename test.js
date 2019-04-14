@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import values from "./index"
+import values from "./index";
 
 test(({same, end}) => {
   same(
@@ -10,10 +10,10 @@ test(({same, end}) => {
       bbb: "222",
     }),
     ["111", "222"]
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
@@ -25,7 +25,7 @@ test(({same, end}) => {
       "aaa",
       "bbb",
     ]
-  )
+  );
 
-  end()
-})
+  end();
+});
