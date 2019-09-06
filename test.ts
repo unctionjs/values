@@ -1,5 +1,5 @@
 
-import values from "./index.ts";
+import values from "./index";
 
 test(() => {
   expect(values({
