@@ -1,14 +1,14 @@
 
 import values from "./index";
 
-test(() => {
+test("works", () => {
   expect(values({
     aaa: "111",
     bbb: "222",
   })).toEqual(["111", "222"]);
 });
 
-test(() => {
+test("works", () => {
   expect(values([
     "aaa",
     "bbb",
