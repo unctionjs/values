@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> EnumerableType<A> => Array<A>
+> Array<A> | Set<A> | RecordType<unknown, A> | string => Array<A>
 
 Takes an iterable and returns it's values.
 
